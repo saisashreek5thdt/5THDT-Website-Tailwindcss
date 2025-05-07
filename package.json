@@ -1,0 +1,27 @@
+{
+  "name": "5thdt-website-tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass:tail": "npx tailwindcss -i ./sass/main.scss -o ./assets/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saisashreek5thdt/5THDT-Website-Tailwindcss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/saisashreek5thdt/5THDT-Website-Tailwindcss/issues"
+  },
+  "homepage": "https://github.com/saisashreek5thdt/5THDT-Website-Tailwindcss#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "sass": "^1.87.0",
+    "tailwindcss": "^3.4.17"
+  }
+}
